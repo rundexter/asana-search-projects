@@ -31,8 +31,6 @@ module.exports = {
 
         query = '?'+qs.stringify(query);
 
-        console.log('query', query);
-
         var request = req.get('https://app.asana.com/api/1.0/projects'+query)
                          .set('Authorization', 'Bearer '+credentials)
                          .type('json')
