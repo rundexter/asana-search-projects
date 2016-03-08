@@ -28,6 +28,7 @@
         "id"    : "name",
         "title" : "Project Name"
     }],
+    "providers": [{ "name": "asana" }],
     "icon": "tasks",
     "title": "Asana Search Projects" /* Required.A display name for the module */
 }
