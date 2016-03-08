@@ -1,12 +1,19 @@
 {
-    "name": "asana-search-projects",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Dexter",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name"        : "asana-search-projects",
+  "version"     : "0.0.1",
+  "description" : "Find project details",
+  "main"        : "index.js",
+  "author"      : "Run Dexter, Inc",
+  "license"     : "MIT",
+  "private"     : true,
+  "dependencies": {
+    "lodash"       : "^3.10.1",
+    "q"            : "^1.4.1",
+    "query-string" : "^3.0.1",
+    "superagent"   : "^1.7.2"
+  },
+  "repository": {
+    "type" : "git",
+    "url"  : "https : //github.com/rundexter/asana-search-projects"
+  }
 }

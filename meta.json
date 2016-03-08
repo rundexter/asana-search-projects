@@ -3,24 +3,31 @@
  */
 {
     //Required. Inputs the module expects.
-    "inputs": [
-        //e.g.
-        /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-        */
-    ],
+    "inputs": [{
+        "id"          : "filter_name",
+        "title"       : "Name Filter",
+        "description" : "Optional. The project name to filter by"
+    }, {
+        "id"          : "filter_archived",
+        "title"       : "Archive Filter",
+        "description" : "Optional. Defaults to false, whether or not to search archived projects"
+    }, {
+        "id"          : "filter_team",
+        "title"       : "Team Id Filter",
+        "description" : "Optional. The team id to filter by"
+    }, {
+        "id"          : "filter_workspace",
+        "title"       : "Workspace Id Filter",
+        "description" : "Optional. The workspace id to filter by"
+    }],
     //Required. Outputs the module emits.
-    "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-      */
-    ],
+    "outputs": [{
+        "id"    : "id",
+        "title" : "Project Id"
+    }, {
+        "id"    : "name",
+        "title" : "Project Name"
+    }],
+    "icon": "tasks",
     "title": "Asana Search Projects" /* Required.A display name for the module */
 }
